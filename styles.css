@@ -1,12 +1,41 @@
-header {
-    font-size: 24px;
+.hero {
+    display: flex;
+    background-color: #1F2937;
     font-family: "roboto";
-    /* color: #f9faf8; */
+    font-size: 48px;
+    color: #f9faf8;
 }
 
-.header-links {
+.header {
+    display: flex;
+    font-size: 24px;
+    background-color: #1F2937;
+    
+}
+
+.header-links, .hero-secondary {
+    display: flex;
     font-size: 18px;
-    /* color: #E5E7EB; */
+    color: #E5E7EB;
+}
+
+.information {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
 }
 
 footer {
